@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: eb-php-app-dev
     group_suffix: null
+  master:
+    environment: null
 global:
   application_name: eb-php-app
   default_ec2_keyname: trellis-ansible
