@@ -1,13 +1,13 @@
 branch-defaults:
   default:
-    environment: eb-php-app-dev
+    environment: eb-php-app
     group_suffix: null
   master:
-    environment: eb-php-app-dev
+    environment: eb-php-app
 global:
   application_name: eb-php-app
   default_ec2_keyname: trellis-ansible
   default_platform: PHP 5.6
   default_region: eu-west-1
   profile: null
-  sc: null
+  sc: git
